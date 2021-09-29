@@ -6,12 +6,10 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-body {
   background-image: url("../images/Background\ color\ splash.jpg");
   background-size: cover;
 }
+
 footer{
   margin-top: auto;
 }
