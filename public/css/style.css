@@ -1,0 +1,12 @@
+.collapse {
+  flex-grow: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+}
