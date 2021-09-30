@@ -10,9 +10,26 @@ app.engine('handlebars', hbs.engine);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/work', (req, res) => {
+  console.log(`"/work" route slapped`)
+  res.render(`work`)
+});
+
+app.get('/resume', (req, res) => {
+  console.log(`"/contact" route slapped`)
+  res.render(`resume`)
+});
+
+app.get('/contact', (req, res) => {
+  console.log(`"/work" route slapped`)
+  res.render(`contact`)
+});
+
 app.get('/', (req, res) => {
-  res.render(`landingPage`)
-})
+  console.log(`/ route slapped`)
+  res.render(`landingPage`, {})
+});
+
 
 app.listen(PORT, () => {
   console.log(`App is listening at http://localhost:${PORT}`)
