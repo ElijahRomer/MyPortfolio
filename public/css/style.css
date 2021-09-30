@@ -24,47 +24,51 @@ footer{
 .img-thumbnail {
   width: 90%; /* You can set the dimensions to whatever you want */
   height: 90%;
-  object-fit:fill;
+  object-fit:contain;
 }
 
-.work {
-  width: 100%; /* You can set the dimensions to whatever you want */
+/* .work-div {
+  background-color: blue;
+} */
+
+/* .work {
+  width: 100%; 
   height: 90%;
-  object-fit:cover !important;
-  /* opacity: 0%; */
+  object-fit:cover;
+  background-color: blue;
   transition: 0.3s box-shadow;
   transition: 0.3s opacity;
   z-index: 2;
-}
+} */
 
-.work:hover{
-  /* box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 131); */
+/* .work:hover{
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 131);
   opacity: 20%;
   transition: 0.3s box-shadow;
   transition: 0.3s opacity;
-}
+} */
 
+.wandir {
+  background-image: url("../images/wandir.jpg");
+  background-size: cover;
+  height:50vh;
+  transition: 0.3s box-shadow;
+  /* width:30vw; */
+}
+.wandir:hover {
+  background-image: url("../images/wandir.jpg");
+  background-size: cover;
+  height:50vh;
+  box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
+  /* opacity: 20%; */
+  transition: 0.3s box-shadow;
+  /* transition: 0.3s opacity; */
+}
+/* 
 .work-description {
+  width: 00px;
   z-index: -1;
   position: absolute;
   top:250px;
   align-items: center;
-}
-
-@include media-breakpoint-up(sm) {
-  .work-description {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  .work-description {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .work-description {
-    font-size: 1.6rem;
-  }
-}
+} */
