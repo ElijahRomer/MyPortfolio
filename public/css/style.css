@@ -10,6 +10,13 @@ body{
   background-size: cover;
 }
 
+p {
+  font-size: larger;
+}
+ul {
+  font-size: larger;
+}
+
 footer{
   margin-top: auto;
 }
@@ -21,12 +28,5 @@ footer{
 .img-thumbnail {
   width: 90%; /* You can set the dimensions to whatever you want */
   height: 90%;
-  object-fit:cover;
-}
-
-.c-img {
-  width: auto;
-
-  /* max-height: 300px; */
   object-fit:cover;
 }
