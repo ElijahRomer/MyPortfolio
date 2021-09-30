@@ -13,3 +13,13 @@ body{
 footer{
   margin-top: auto;
 }
+
+/* ul {
+  list-style: none;
+} */
+
+img {
+  width: 100%; /* You can set the dimensions to whatever you want */
+  height: 100%;
+  object-fit: cover;
+}
