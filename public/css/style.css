@@ -21,12 +21,50 @@ footer{
   margin-top: auto;
 }
 
-/* ul {
-  list-style: none;
-} */
-
 .img-thumbnail {
   width: 90%; /* You can set the dimensions to whatever you want */
   height: 90%;
-  object-fit:cover;
+  object-fit:fill;
+}
+
+.work {
+  width: 100%; /* You can set the dimensions to whatever you want */
+  height: 90%;
+  object-fit:cover !important;
+  /* opacity: 0%; */
+  transition: 0.3s box-shadow;
+  transition: 0.3s opacity;
+  z-index: 2;
+}
+
+.work:hover{
+  /* box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 0, 131); */
+  opacity: 20%;
+  transition: 0.3s box-shadow;
+  transition: 0.3s opacity;
+}
+
+.work-description {
+  z-index: -1;
+  position: absolute;
+  top:250px;
+  align-items: center;
+}
+
+@include media-breakpoint-up(sm) {
+  .work-description {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .work-description {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .work-description {
+    font-size: 1.6rem;
+  }
 }
