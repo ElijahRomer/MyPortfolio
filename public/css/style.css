@@ -6,7 +6,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("../images/Background\ color\ splash.jpg");
+  background-image: url("../images/backgroundColorSplash.jpg");
   background-size: cover;
 }
 
@@ -18,8 +18,15 @@ footer{
   list-style: none;
 } */
 
-img {
-  width: 100%; /* You can set the dimensions to whatever you want */
-  height: 100%;
-  object-fit: cover;
+.img-thumbnail {
+  width: 90%; /* You can set the dimensions to whatever you want */
+  height: 90%;
+  object-fit:cover;
+}
+
+.c-img {
+  width: auto;
+
+  /* max-height: 300px; */
+  object-fit:cover;
 }
