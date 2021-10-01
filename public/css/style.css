@@ -32,7 +32,7 @@ footer{
 .wandir {
   background-image: url("../images/wandir.jpg");
   background-size: cover;
-  height:50vh;
+  height:500px;
   transition: 0.3s box-shadow;
 }
 .wandir:hover {
@@ -44,12 +44,63 @@ footer{
   background-image: url("../images/timedQuiz.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:150px !important;
-  /* width: 100%; */
+  height:300px !important;
   transition: 0.3s box-shadow;
 }
 
 .timed-quiz:hover {
+  box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
+  transition: 0.3s box-shadow;
+}
+
+.weather-dashboard {
+  background-image: url("../images/weatherDashboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:300px !important;
+  transition: 0.3s box-shadow;
+}
+
+.weather-dashboard:hover {
+  box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
+  transition: 0.3s box-shadow;
+}
+
+.employee-database {
+  background-image: url("../images/employeeDatabase.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:300px !important;
+  transition: 0.3s box-shadow;
+}
+
+.employee-database:hover {
+  box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
+  transition: 0.3s box-shadow;
+}
+
+.star-spangled-memer {
+  background-image: url("../images/starSpangledMemer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:300px !important;
+  transition: 0.3s box-shadow;
+}
+
+.star-spangled-memer:hover {
+  box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
+  transition: 0.3s box-shadow;
+}
+
+.readme-generator {
+  background-image: url("../images/readmeGenerator.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:300px !important;
+  transition: 0.3s box-shadow;
+}
+
+.readme-generator:hover {
   box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
   transition: 0.3s box-shadow;
 }
