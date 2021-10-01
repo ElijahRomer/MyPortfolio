@@ -38,6 +38,12 @@ footer{
   color: blue;
 }
 
+#work {
+  font-size: larger;
+  background-color: rgb(61, 40, 255);
+  border:blue solid 1px;
+}
+
 /* WORK PAGE EXCLUSIVE STUFF */
 
 .wandir {
