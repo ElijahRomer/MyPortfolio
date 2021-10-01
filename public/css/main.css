@@ -105,6 +105,16 @@ footer{
   transition: 0.3s box-shadow;
 }
 
+.repo-link {
+  text-decoration: none;
+  color:Yellow;
+  font-size: larger;
+}
 
+.repo-link:hover {
+  text-decoration: none;
+  color:rgb(209, 178, 0);
+  font-size: larger;
+}
 
 
