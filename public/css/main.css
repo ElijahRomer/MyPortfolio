@@ -39,9 +39,9 @@ footer{
 }
 
 #work {
-  font-size: larger;
-  background-color: rgb(61, 40, 255);
-  border:blue solid 1px;
+  font-size: x-large;
+
+  border:blue solid 1px; 
 }
 
 /* WORK PAGE EXCLUSIVE STUFF */
