@@ -27,6 +27,17 @@ footer{
   object-fit:contain;
 }
 
+.contact-methods {
+  list-style: none;
+}
+.contact-methods >li > a {
+  text-decoration: none;
+  color: bisque;
+}
+.contact-methods >li > a:hover {
+  color: blue;
+}
+
 /* WORK PAGE EXCLUSIVE STUFF */
 
 .wandir {
