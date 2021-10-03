@@ -10,6 +10,18 @@ body{
   background-size: cover;
 }
 
+.navbar-brand {
+  color: inherit;
+  transition: color 0.3s;
+}
+.navbar-brand:hover {
+  color: blue!important;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: blue!important;
+}
+
 p {
   font-size: larger;
 }
@@ -29,14 +41,16 @@ footer{
 
 .contact-methods {
   list-style: none;
+  font-size: x-large;
 }
 .contact-methods >li > a {
   text-decoration: none;
-  color: bisque;
+
 }
-.contact-methods >li > a:hover {
-  color: blue;
+.phone {
+  font-size: x-large;
 }
+
 
 #work {
   font-size: x-large;
