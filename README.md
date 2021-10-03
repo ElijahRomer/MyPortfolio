@@ -56,6 +56,7 @@ Please do not hesitate to reach out with any questions you may have. I can be re
 
 * Email: [ElijahARomer@gmail.com](mailto:ElijahARomer@gmail.com)
 * GitHub: [ElijahRomer](http://www.github.com/ElijahRomer)
+* LinkedIn: [ElijahRomer](https://www.linkedin.com/in/elijahromer/)
 
 
 Thank you for reaching out and I look forward to getting in touch with you soon!
