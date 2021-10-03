@@ -125,13 +125,33 @@ footer{
 .repo-link {
   text-decoration: none;
   color:Yellow;
+  transition: color 0.3s;
   font-size: larger;
 }
 
 .repo-link:hover {
   text-decoration: none;
   color:rgb(209, 178, 0);
+  transition: color 0.3s;
   font-size: larger;
 }
 
+/* RESUME EMBED STUFF */
+
+iframe {
+  width: 90%; 
+  height:800px;
+  object-fit:contain;
+}
+
+.download {
+  text-decoration: none;
+  color: gold;
+  transition: color 0.3s;
+}
+.download:hover {
+  text-decoration: none;
+  color: rgb(184, 156, 0);
+  transition: color 0.3s;
+}
 
