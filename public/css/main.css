@@ -110,15 +110,15 @@ footer{
   transition: 0.3s box-shadow;
 }
 
-.star-spangled-memer {
-  background-image: url("../images/starSpangledMemer.jpg");
+.the-tech-blog {
+  background-image: url("../images/techBlog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height:300px !important;
   transition: 0.3s box-shadow;
 }
 
-.star-spangled-memer:hover {
+.the-tech-blog:hover {
   box-shadow: 2px 2px 4px black, 0 0 25px blue, 0 0 5px rgb(50, 50, 131);
   transition: 0.3s box-shadow;
 }
